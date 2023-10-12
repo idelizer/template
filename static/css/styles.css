@@ -1,0 +1,11 @@
+body {
+    background: linear-gradient(70deg, #FF5F6D, #FFC371)
+}
+
+.circle {
+    height: 400px;
+    width: 400px;
+    background: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
