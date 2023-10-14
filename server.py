@@ -9,5 +9,10 @@ def view_home():
     return render_template('home.html')
 
 
+@app.route("/about")
+def view_about():
+
+    return render_template('about.html')
+
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0")
