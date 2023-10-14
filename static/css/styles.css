@@ -3,10 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    background: beige;
-}
-
 .circle {
     height: 400px;
     width: 400px;
