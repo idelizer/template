@@ -14,5 +14,10 @@ def view_about():
 
     return render_template('about.html')
 
+@app.route("/linktree")
+def view_linktree():
+
+    return render_template('linktree.html')
+
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0")
