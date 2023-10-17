@@ -19,5 +19,10 @@ def view_linktree():
 
     return render_template('linktree.html')
 
+@app.route("/projects")
+def view_projects():
+
+    return render_template('projects.html')
+
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0")
